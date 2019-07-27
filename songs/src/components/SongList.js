@@ -9,7 +9,7 @@ class SongList extends Component{
                 <div className="item" key={song.title}>
                     <div className="right floated content">
                         <button 
-                            className="ui primary button"
+                            className="ui purple basic button"
                             onClick={() => this.props.selectSong(song)}
                         >
                             Select
