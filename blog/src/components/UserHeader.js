@@ -24,4 +24,5 @@ const mapStateToProps = (state, ownProps) => {
 
 export default connect(
     mapStateToProps,
-    { fetchUser })(UserHeader);
+    { fetchUser }
+)(UserHeader);
