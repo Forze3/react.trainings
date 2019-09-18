@@ -7,7 +7,6 @@ class App extends React.Component{
     
     onNameSubmit = (term) => {
         this.setState( {gretting: `Hello ${term}`} )
-        return this.state.term;
     }
     
     render(){
